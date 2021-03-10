@@ -1,1 +1,75 @@
-/* give your assignment a fun background color */
+html{
+  background-color: #E5CEA1;
+  color: #aaa;
+}
+
+.atari,
+.atari2,
+.atari4 {
+  background: #E5CEA1;
+}
+
+.atari {
+  height: 304px;
+  position: relative;
+  width: 540px;
+}
+
+.atari .icon {
+  height: 200px;
+  left: 153px;
+  overflow: hidden;
+  position: absolute;
+  top: 25px;
+  width: 234px;
+}
+
+.atari .icon * {
+  position: absolute;
+}
+
+.atari .side2 {
+  left: 234px;
+  position: absolute;
+  top: 0;
+  transform: scalex(-1);
+}
+
+.atari1,
+.atari3 {
+  background: #664B52;
+}
+
+.atari1 {
+  height: 200px;
+  left: 85px;
+  width: 32px;
+}
+
+.atari2 {
+  height: 256px;
+  top: -53px;
+  width: 141px;
+}
+
+.atari2 {
+  border-radius: 0 0 141px 141px/256px 256px 256px 256px;
+  left: -34px;
+  top: -22px;
+}
+
+.atari3 {
+  border-radius: 0 0 200px 200px/334px 334px 334px 334px;
+  bottom: 0;
+  height: 334px;
+  left: -101px;
+  top: -135px;
+  width: 200px;
+}
+.atari4 {
+  border-radius: 0 0 183px 183px/239px 239px 239px 239px;
+  height: 239px;
+  left: -100px;
+  top: -89px;
+  width: 183px;
+}
