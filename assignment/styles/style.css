@@ -1,75 +1,116 @@
-html{
-  background-color: #E5CEA1;
-  color: #aaa;
+/* give your assignment a fun background color */
+html {
+  background-color: #8B704D;
+  font-size: 2vw;
 }
 
-.atari,
-.atari2,
-.atari4 {
-  background: #E5CEA1;
-}
-
-.atari {
-  height: 304px;
-  position: relative;
-  width: 540px;
-}
-
-.atari .icon {
-  height: 200px;
-  left: 153px;
-  overflow: hidden;
-  position: absolute;
-  top: 25px;
-  width: 234px;
-}
-
-.atari .icon * {
-  position: absolute;
-}
-
-.atari .side2 {
-  left: 234px;
+header {
+  color: #025C68;
+  height: 20vh;
+  left: 0;
   position: absolute;
   top: 0;
-  transform: scalex(-1);
+  width: 100%;
 }
 
-.atari1,
-.atari3 {
-  background: #664B52;
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 3em;
+  padding: 1rem;
+  text-align: center;
 }
 
-.atari1 {
-  height: 200px;
-  left: 85px;
-  width: 32px;
+h2 {
+  font-family: 'Righteous', cursive;
+  text-shadow: 1px 1px #66293E;
+  font-size: 2em;
+  margin-top: -2rem;
+  padding: 1rem;
 }
 
-.atari2 {
-  height: 256px;
-  top: -53px;
-  width: 141px;
+main {
+  color: #025C68;
+  -webkit-text-stroke: 1px #E5CEA1;
+  font-family: 'Righteous', cursive;
+  position: relative;
+  top: 10rem;
+  margin-top: 1rem;
+  font-size: 1em;
+  padding: 1rem;
+  left: 0;
 }
 
-.atari2 {
-  border-radius: 0 0 141px 141px/256px 256px 256px 256px;
-  left: -34px;
-  top: -22px;
-}
-
-.atari3 {
-  border-radius: 0 0 200px 200px/334px 334px 334px 334px;
+footer {
+  color: #664B52;
+  position: absolute;
   bottom: 0;
-  height: 334px;
-  left: -101px;
-  top: -135px;
-  width: 200px;
+  right: 1rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8em;
 }
-.atari4 {
-  border-radius: 0 0 183px 183px/239px 239px 239px 239px;
-  height: 239px;
-  left: -100px;
-  top: -89px;
-  width: 183px;
+
+.side1 .atari1 {
+  height: 100vh;
+  width: 46vw;
+  background-color: #E5CEA1;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 0 0 30% 0/ 0 0 60% 0;
+  background-clip: padding-box;
+}
+
+.side1 .atari2 {
+  height: 100vh;
+  width: 43vw;
+  background-color: #8B704D;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 0 0 100% 0/ 0 0 80% 0;
+  background-clip: padding-box;
+}
+
+.side1 .atari3 {
+  height: 80vh;
+  width: 37vw;
+  background-color: #E5CEA1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 0 0 100% 0 / 0 0 100% 0;
+  background-clip: padding-box;
+}
+
+.side2 .atari1 {
+  height: 100vh;
+  width: 46vw;
+  background-color: #E5CEA1;
+  top: 0;
+  right: 0;
+  position: absolute;
+  border-radius: 0 0 0 30% / 0 0 0 60%;
+  background-clip: padding-box;
+}
+
+.side2 .atari2 {
+  height: 100vh;
+  width: 43vw;
+  background-color: #8B704D;
+  right: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 0 0 0 100% / 0 0 0 80%;
+  background-clip: padding-box;
+}
+
+.side2 .atari3 {
+  height: 80vh;
+  width: 37vw;
+  background-color: #E5CEA1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0 0 0 100% / 0 0 0 100%;
+  background-clip: padding-box;
 }
