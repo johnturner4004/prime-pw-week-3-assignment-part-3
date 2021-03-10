@@ -1,4 +1,4 @@
-console.log('****** Part Supply *******');
+console.log('%c****** Part Supply *******', 'background-color: blue' );
 // REQUIRED FEATURES
 
 // 1. Create a variable called 'partsNeeded' with a value of the number 40
@@ -28,16 +28,18 @@ console.log('5. Adding 25 to supplyChanges.', supplyChanges);
 //    - if it is a positive number (greater than 0), log 'Added x parts.'
 //    - if the value is 0, skip it. Do not log it to the console.
 //    - if the value is negative, format the log as 'Part count -x.'
+console.log('6. Showing supplyChanges...');
 for (let i = 0; i < supplyChanges.length; i++) {
   if (supplyChanges[i] > 0) {
-    console.log('Added', supplyChanges[i], 'parts.');
+    let x = supplyChanges[i];
+    console.log('Added', x, 'parts.');
   }
 
   if (supplyChanges[i] < 0) {
-    console.log('Part count', supplyChanges[i]);
+    let x = supplyChanges[i];
+    console.log('Part count', x);
   }
 }
-console.log('6. Showing supplyChanges...');
 
 
 // STRETCH GOALS
