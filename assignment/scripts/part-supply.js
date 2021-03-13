@@ -31,13 +31,11 @@ console.log('5. Adding 25 to supplyChanges.', supplyChanges);
 console.log('6. Showing supplyChanges...');
 for (let i = 0; i < supplyChanges.length; i++) {
   if (supplyChanges[i] > 0) {
-    let x = supplyChanges[i];
-    console.log('Added', x, 'parts.');
+    console.log('Added', supplyChanges[i], 'parts.');
   }
 
   if (supplyChanges[i] < 0) {
-    let x = supplyChanges[i];
-    console.log('Part count', x);
+    console.log('Part count', supplyChanges[i]);
   }
 }
 
