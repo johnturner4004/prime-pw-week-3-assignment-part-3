@@ -16,8 +16,8 @@ console.log('3. Item at index 2 is:', supplyChanges[2]);
 
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges'
 //    array & console.log the value removed.
-supplyChanges.pop();
-console.log('4. Removed item:', supplyChanges);
+let removedItem = supplyChanges.pop();
+console.log('4. Removed item:', removedItem);
 
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 supplyChanges.push(25);
@@ -32,9 +32,7 @@ console.log('6. Showing supplyChanges...');
 for (let i = 0; i < supplyChanges.length; i++) {
   if (supplyChanges[i] > 0) {
     console.log('Added', supplyChanges[i], 'parts.');
-  }
-
-  if (supplyChanges[i] < 0) {
+  } else if (supplyChanges[i] < 0) {
     console.log('Part count', supplyChanges[i]);
   }
 }
